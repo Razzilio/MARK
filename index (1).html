@@ -82,29 +82,12 @@
       </div>
 
       <div class="form-group">
-        <label>Initial Deposit (PHP)</label>
-        <input type="number" id="regDeposit" placeholder="Minimum ₱5,000" min="5000">
-      </div>
-
-      <div class="form-group">
         <label>Account Type</label>
         <select id="regType">
           <option value="Savings">Savings Account (3.5% APR)</option>
           <option value="Checking">Checking Account (No lock-in)</option>
           <option value="TaxFree">Tax-Free Account (4.5% APR)</option>
         </select>
-      </div>
-
-      <div class="form-group">
-        <label>Upload Valid Identification (ID)</label>
-        <div class="file-upload-area">
-          <input type="file" id="regIDFile" onchange="updateUploadLabel(this)">
-          <div class="file-upload-icon">
-            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
-          </div>
-          <div class="file-upload-text" id="uploadText">Click or Drag document file here</div>
-          <div class="file-upload-sub">PDF, PNG, JPG accepted (Max 10MB)</div>
-        </div>
       </div>
 
       <div class="form-group">
